@@ -13,8 +13,8 @@ export interface Post {
   id?: string | any
   title: string
   text: string
-  author: string
-  date: Date
+  author: string | undefined
+  date: Date | string
 }
 
 export interface FbCreateResponse {
